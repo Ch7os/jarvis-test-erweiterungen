@@ -1,0 +1,9 @@
+{
+  "name": "jarvis-test",
+  "owner": {"name": "Ch7os"},
+  "description": "Testmarktplatz für Jarvis P9g",
+  "plugins": [
+    {"name": "jarvis-testplugin", "source": "./plugins/jarvis-testplugin", "description": "Testplugin: Skill, Agent, LSP, settings.json, bin/, Abhängigkeit", "version": "0.1.0", "category": "test", "tags": ["jarvis", "test"]},
+    {"name": "jarvis-testabhaengig", "source": "./plugins/jarvis-testabhaengig", "description": "Abhängigkeit des Testplugins", "version": "0.1.0", "category": "test"}
+  ]
+}

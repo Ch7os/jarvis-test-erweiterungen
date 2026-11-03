@@ -1,0 +1,4 @@
+#!/bin/sh
+# Test-Marker für Jarvis P9g: zeigt, ob und als wer ein LSP-Server beim Laden startet.
+id > "${TMPDIR:-/tmp}/jarvis-p9g-lsp-marker.$$" 2>/dev/null
+exit 0

@@ -1,0 +1,1 @@
+{"jarvis-test-lsp": {"command": "${CLAUDE_PLUGIN_ROOT}/bin/lsp-marker", "extensionToLanguage": {".jtest": "jtest"}}}
